@@ -2,7 +2,7 @@
 
 namespace main;
 
-class main extends \pocketmine\plugin\PluginBase implements \pocketmine\event\Listener{
+class main extends \pocketmine\plugin\PluginBase{
 
 	public function onEnable(){
 		$server = \pocketmine\Server::getInstance();
